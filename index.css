@@ -1,0 +1,228 @@
+*{padding: 0;margin: 0;}
+body{
+    background-color: rgba(197, 220, 220, 0.671);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";    
+}
+.profile_page{
+    width: 1110px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+}
+.box_left{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    background-color: white;
+    width: 350px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.user .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.user .name{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.user .transfer{
+    font-size: 20px;
+    padding-top: 5px;
+    color: #6c757d!important;
+}
+.user .address{
+    font-size: 20px;
+    padding-top: 5px;
+    color: #6c757d!important;
+}
+.btn{
+    padding-top: 15px;
+}
+.btn .follow{
+    width: 72px;
+    height: 38px;
+    background-color: #0069d9;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn .follow:hover{
+    background-color: #0062cc;
+}
+.btn .message{
+    width: 72px;
+    height: 38px;
+    border-radius: 3px;
+    color: #0062cc;
+    border: 1px solid #0062cc;
+    transition: 0.5s;
+}
+.btn .message:hover{
+    color: white;
+    background-color: #0069d9;
+}
+.website{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.web{
+    padding: 15px 10px 10px 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(129 101 101 / 13%);
+
+}
+.logo{
+    color: rgb(60, 55, 187);
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+.content_icon{
+    color: black;
+    /* font-weight: bold; */
+}
+.content_web{
+    color: #6c757d;
+}
+a{
+    text-decoration: none;
+}
+
+/*  */
+
+.box_right{
+    width: 730px;
+    height: 680px;
+}
+.information{
+    padding: 20px;
+    width: 715px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: white;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    width: 712px;
+    height: 24px;
+}
+h4{
+    color: #212529b9;
+    width: 178px;
+}
+h3{
+    color: #212529b9;
+    padding-bottom: 10px;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.057);
+}
+.row_content{
+    padding-left: 20px;
+    color: #212529bd;
+}
+.btn_edit{
+    width:60px;
+    height: 40px;
+    background-color: #138496;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.btn_edit:hover{
+    background-color: #0a6c7b;
+}
+.project_status{
+    width: 755px;
+    height: 369px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.project{
+    padding: 20px;
+}
+.name-project{
+    /* padding-top: 10px; */
+}
+.process-bar{
+    width: 94%;
+    /* background-color: #0063cc00; */
+    height: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.under{
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.over1{
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: #1d5791;
+    border-radius: 5px;
+    position: absolute;
+}
+.over2{
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: #da640f;
+    border-radius: 5px;
+    position: absolute;
+}
+.over3{
+    display: block;
+    width: 70%;
+    height: 5px;
+    background-color: #da0f0f;
+    border-radius: 5px;
+    position: absolute;
+}
+.over4{
+    display: block;
+    width: 50%;
+    height: 5px;
+    background-color: #0fda0fc8;
+    border-radius: 5px;
+    position: absolute;
+}
+.over5{
+    display: block;
+    width: 60%;
+    height: 5px;
+    background-color: #0fd0da;
+    border-radius: 5px;
+    position: absolute;
+}
